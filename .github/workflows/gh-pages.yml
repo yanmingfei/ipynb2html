@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - viewer  # TODO: remove
 jobs:
   build-and-deploy:
     name: Build & deploy
